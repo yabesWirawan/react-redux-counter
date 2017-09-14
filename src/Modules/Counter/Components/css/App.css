@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+  width: 720px;
+  margin: 0 auto;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.Containers{
+  margin: 40px;
+  padding: 5px;
+  background: white;
+}
+
+.Components{
+  margin: 20px;
+  padding: 5px;
+  background: white;
+}
+
+.Components#App {
+  border: 2px dashed red;
+}
+
+.Components#App:hover{
+  background: rgba(255,0,0,0.5);
+}
+
+.Containers#Counter{
+  border: 2px solid green;
+}
+
+.Containers#Counter:hover{
+  background: rgb(0,200,100);
+}
+
+#Counter>.Components{
+  border: 2px dashed green; 
+}
+
+#Counter>.Components:hover{
+  background: rgb(0,255,0);
+}
+
+.Containers#CounterList{
+  border: 2px solid blue;
+}
+
+.Containers#CounterList:hover{
+  background: rgb(0,100,200)
+}
+
+.Containers#CounterList>.Components{
+  border: 2px dashed blue;
+}
+
+.Containers#CounterList>.Components:hover{
+  background: rgb(0,200,200);
+}
+
+.Components button{
+  text-align: center;
+}
