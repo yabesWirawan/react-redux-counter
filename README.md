@@ -26,16 +26,16 @@ npm run eject   # remove the build tool and all configuration of create-react-ap
 The project structure will look like this:
 ~~~bash
 | node_modules
-| public                    # Holds static assets and root file
+| public                                        # Holds static assets and root file
 | -- favicon.ico
 | -- index.html
 | -- manifest.json
-| src                               # All react components goes here 
-| -- Modules                        # All react components goes here
-| -- -- Counter                     # Counter Module
-| -- -- -- Actions                  # All actions goes here
+| src                                           # All react components goes here 
+| -- Modules                                    # All react components goes here
+| -- -- Counter                                 # Counter Module
+| -- -- -- Actions                              # All actions goes here
 | -- -- -- -- Counter.js
-| -- -- -- Components               # All components goes here
+| -- -- -- Components                           # All components goes here
 | -- -- -- -- css
 | -- -- -- -- img
 | -- -- -- -- App.js
@@ -44,18 +44,18 @@ The project structure will look like this:
 | -- -- -- -- Counter.test.js
 | -- -- -- -- CounterList.js
 | -- -- -- -- CounterList.test.js
-| -- -- -- Constants                # All constants goes here
+| -- -- -- Constants                            # All constants goes here
 | -- -- -- -- Counter.js
-| -- -- -- Containers               # All containers goes here
+| -- -- -- Containers                           # All containers goes here
 | -- -- -- -- Counter.js
 | -- -- -- -- CounterList.js
-| -- -- -- Reducers                 # All reducers goes here
+| -- -- -- Reducers                             # All reducers goes here
 | -- -- -- -- Counter.js
 | -- index.css
-| -- index.js                       # Root react components
-| -- registerServiceWorker.js       # For PWA
+| -- index.js                                   # Root react components
+| -- registerServiceWorker.js                   # For PWA
 | .gitignore
-| package.json                      # All npm packages used
+| package.json                                  # All npm packages used
 | README.md
 ~~~
 
