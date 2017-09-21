@@ -13,7 +13,7 @@ Clone this repository and then do:
 
 ~~~bash
 cd counter
-npm install # install all necessary modules
+npm install     # install all necessary modules
 ~~~
 
 Below are list of npm script that you can run:
