@@ -1,4 +1,7 @@
 # React-Redux Counter Example
+
+![React-Redux-Counter](public/react-redux-counter.gif)
+
 This is a React Redux counter app example. It implements redux design pattern which covers:
 1. Actions
 2. Containers
